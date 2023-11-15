@@ -6,50 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
-    <LinearLayout
-        android:layout_width="730dp"
-        android:layout_height="832dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.071">
-
-        <EditText
-            android:id="@+id/editTextText4"
-            android:layout_width="match_parent"
-            android:layout_height="199dp"
-            android:ems="10"
-            android:inputType="text"
-            android:text="Nombre" />
-
-        <EditText
-            android:id="@+id/editTextText5"
-            android:layout_width="match_parent"
-            android:layout_height="218dp"
-            android:ems="10"
-            android:inputType="text"
-            android:text="Primer Apellido" />
-
-        <EditText
-            android:id="@+id/editTextText6"
-            android:layout_width="match_parent"
-            android:layout_height="233dp"
-            android:ems="10"
-            android:inputType="text"
-            android:text="Segundo Apellido" />
-    </LinearLayout>
-
     <Button
-        android:id="@+id/button"
-        android:layout_width="291dp"
-        android:layout_height="127dp"
-        android:text="Enviar"
-        android:onClick="p"
+        android:id="@+id/button_nombre"
+        android:layout_width="168dp"
+        android:layout_height="63dp"
+        android:text="Enviar nombre"
+        android:onClick="l"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.862" />
+        app:layout_constraintVertical_bias="0.751" />
+
+    <EditText
+        android:id="@+id/edittext_nombre"
+        android:layout_width="248dp"
+        android:layout_height="87dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254" />
 </androidx.constraintlayout.widget.ConstraintLayout>
